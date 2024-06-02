@@ -880,10 +880,6 @@ input, button, textarea {
 }
 
 @media ((max-width: 1199px) and (orientation: landscape) and (max-height: 640px)) {
-  .trends-items {
-    flex-wrap: wrap;
-  }
-
   .trends-item {
     width: calc((100% - 3px) / 2);
     padding: 15px;

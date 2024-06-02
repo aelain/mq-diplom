@@ -162,10 +162,6 @@
 }
 
 @media (orientation: portrait) {
-  .trends-items {
-    flex-wrap: wrap;
-  }
-
   .trends-item {
     width: calc((100% - 3px) / 2);
   }
