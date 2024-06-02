@@ -879,7 +879,7 @@ input, button, textarea {
   color: #999999;
 }
 
-@media ((orientation: landscape) and (max-height: 640px)) {
+@media ((max-width: 1199px) and (orientation: landscape) and (max-height: 640px)) {
   .trends-items {
     flex-wrap: wrap;
   }
