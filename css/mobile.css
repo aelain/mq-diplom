@@ -24,7 +24,7 @@
 }
 
 .header {
-  padding: 30px 0 211px;
+  padding: 32px 0 210px;
 
   background-image: url("../images/banner-mobile.jpg");
 }
@@ -36,8 +36,8 @@
 
 .header-line {
   flex-direction: column-reverse;
-  gap: 171px;
-  margin-bottom: 36px;
+  gap: 174px;
+  margin-bottom: 35px;
   padding-left: 0;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .trends {
-  margin-top: 37px;
+  margin-top: 38px;
 }
 
 .section-title {
@@ -98,7 +98,7 @@
 }
 
 .container-wrapper {
-  margin-top: 44px;
+  margin-top: 41px;
 }
 
 .main-cols {
@@ -163,22 +163,18 @@
   text-transform: uppercase;
 }
 
-.latest-post-description {
-  width: 100%;
-}
-
 .tags-list {
   gap: 3px;
 }
 
 .shop {
-  margin-top: 40px;
+  margin-top: 45px;
 }
 
 .shop-items {
   flex-wrap: nowrap;
   flex-direction: column;
-  gap: 46px;
+  gap: 24px;
 }
 
 .shop-item {
@@ -186,7 +182,13 @@
 }
 
 .shop-image {
+  padding: 0 22px 46px;
+
   aspect-ratio: 1 / 1;
+}
+
+.shop-description {
+  margin-top: -74px;
 }
 
 .shop-title {
@@ -194,12 +196,18 @@
 }
 
 .footer {
-  margin-top: 65px;
+  margin-top: 43px;
   padding-bottom: 44px;
 }
 
 .copyrights {
-  margin-top: 46px;
+  margin-top: 45px;
+}
+
+@media (min-width: 435px) {
+  .header {
+    background-position: center center;
+  }
 }
 
 @media (orientation: portrait) {
@@ -212,8 +220,8 @@
   }
 }
 
-@media (min-width: 435px) {
-  .header {
-    background-position: center center;
+@media (orientation: landscape) {
+  .trends-item {
+    width: calc((100% - 3px) / 2);
   }
 }

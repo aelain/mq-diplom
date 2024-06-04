@@ -19,7 +19,7 @@
 }
 
 .header {
-  padding: 42px 0 113px;
+  padding: 43px 0 113px;
 
   background-image: url("../images/banner-bg-tablet.jpg");
 }
@@ -30,7 +30,7 @@
 }
 
 .header-line {
-  margin-bottom: 92px;
+  margin-bottom: 91px;
   padding-left: 0;
 }
 
@@ -68,6 +68,7 @@
 }
 
 .trends-item {
+  width: calc((100% - 3px) / 2);
   min-height: 248px;
   padding: 16px 18px;
 }
@@ -130,7 +131,7 @@
 }
 
 .shop-items {
-  gap: 48px 22px;
+  gap: 26px 22px;
 }
 
 .shop-item {
@@ -139,7 +140,13 @@
 }
 
 .shop-image {
+  padding: 0 22px 33px;
+
   aspect-ratio: 1.286;
+}
+
+.shop-description {
+  margin-top: -64px;
 }
 
 .shop-title {
@@ -147,28 +154,16 @@
 }
 
 .footer {
-  margin-top: 72px;
+  margin-top: 52px;
   padding-bottom: 34px;
 }
 
 .copyrights {
-  margin-top: 44px;
+  margin-top: 45px;
 }
 
 @media (min-width: 805px) {
   .header {
     background-position: center bottom;
-  }
-}
-
-@media (orientation: portrait) {
-  .trends-item {
-    width: calc((100% - 3px) / 2);
-  }
-}
-
-@media ((max-width: 1000px) and (orientation: landscape)) {
-  .trends-title {
-    font-size: 16px;
   }
 }
