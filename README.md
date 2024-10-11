@@ -24,4 +24,4 @@
 ## Результат
 [Готовый проект](https://aelain.github.io/mq-diplom/)
 
-![NOEMI_mq_desktop.jpg](sources/NOEMI_mq_desktop.jpg)
+![Макет сайта NOEMI](sources/NOEMI_mq_desktop.jpg)
